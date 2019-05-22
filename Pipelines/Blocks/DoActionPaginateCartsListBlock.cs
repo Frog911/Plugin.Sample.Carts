@@ -25,7 +25,7 @@ namespace Plugin.Sample.Carts.Pipelines.Blocks
                 || !entityView.Name.Contains("CartsList")
                 || string.IsNullOrEmpty(entityView.Action)
                 || !entityView.Action.Equals(context.GetPolicy<KnownCartActionsPolicy>().PaginateCartsList,
-                    StringComparison.OrdinalIgnoreCase) || !Validate(entityView))
+                    StringComparison.OrdinalIgnoreCase) || !Validate(entityView, context.CommerceContext))
             {
                 return entityView;
             }

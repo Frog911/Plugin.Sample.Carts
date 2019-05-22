@@ -13,14 +13,14 @@
 
   <ItemGroup>
     <PackageReference Include="Sitecore.Commerce.Core">
-      <Version>2.0.*</Version>
+      <Version>2.4.37</Version>
     </PackageReference>
-    <PackageReference Include="Sitecore.Commerce.Plugin.BusinessUsers" Version="2.1.6" />
-    <PackageReference Include="Sitecore.Commerce.Plugin.Carts" Version="2.1.3" />
-    <PackageReference Include="Sitecore.Commerce.Plugin.Catalog" Version="2.1.10" />
-    <PackageReference Include="Sitecore.Commerce.Plugin.Orders" Version="2.1.5" />
-    <PackageReference Include="Sitecore.Commerce.Plugin.Pricing" Version="2.1.3" />
-    <PackageReference Include="Sitecore.Commerce.Plugin.Views" Version="2.1.6" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.BusinessUsers" Version="2.4.37" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Carts" Version="2.4.11" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Catalog" Version="2.4.21" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Orders" Version="2.4.11" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Pricing" Version="2.4.4" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Views" Version="2.4.37" />
   </ItemGroup>
 
   <ItemGroup>
